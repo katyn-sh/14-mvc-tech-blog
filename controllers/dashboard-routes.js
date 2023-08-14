@@ -3,6 +3,7 @@ const sequelize = require('../config/connection');
 const { Post, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
 
+// GET all post route in dashboard page
 router.get('/', withAuth, (req, res) => {
   Post.findAll({
     where: {
@@ -39,6 +40,7 @@ router.get('/', withAuth, (req, res) => {
     });
 });
 
+// GET single post route in dashboard page
 router.get('/edit/:id', withAuth, (req, res) => {
   Post.findByPk(req.params.id, {
     attributes: [
