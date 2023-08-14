@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="alert alert-secondary alert-dismissible fade show">
+            {{#each this}}
+            <hr>
+            <section class="comment">
+                <div class="meta">
+                    <a class="alert-link">{{user.username}} on {{format_date created_at}}</a>
+                </div>
+                <div class="text">
+                    {{comment_text}}
+                </div>
+            </section>
+            {{/each}}
+        </div>
+    </div>
+</div>

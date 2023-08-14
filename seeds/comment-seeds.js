@@ -2,32 +2,32 @@ const { Comment } = require('../models');
 
 const commentdata = [
   {
-    comment_text: 'Today’s travel tip: The absolute must-look site if you ever rent a car',
+    comment_text: 'Wow, this product turned my pet rock into a rocket scientist!',
     user_id: 3,
     post_id: 1,
   },
   {
-    comment_text: '10 things to bring with you into the sky?',
+    comment_text: 'I drank this coffee and now I can communicate with squirrels.',
     user_id: 2,
     post_id: 4,
   },
   {
-    comment_text: 'Is this believable?',
+    comment_text: 'Your writing advice is invaluable to someone like me whos just starting out.',
     user_id: 3,
     post_id: 5,
   },
   {
-    comment_text: 'Maybe nice',
+    comment_text: 'I really enjoyed your post!',
     user_id: 5,
     post_id: 5,
   },
   {
-    comment_text: 'Up in the (international) air',
+    comment_text: 'This article opened up a whole new perspective for me.',
     user_id: 4,
     post_id: 5,
   },
   {
-    comment_text: 'Development tourism',
+    comment_text: 'The way you describe natures beauty is simply poetic.',
     user_id: 1,
     post_id: 5,
   },

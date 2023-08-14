@@ -2,49 +2,49 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'Blossoming Apricot',
+    title: 'Ride on Time - Tatsuro Yamashita',
     user_id: 1,
-    post_text:'Branches with pink apricot blossoms against a blue background.',
+    post_text:'Released September 19th, 1980',
   },
   {
-    title: 'Cosmos Flowers',
+    title: 'For You - Tatsuro Yamashita',
     user_id: 2,
-    post_text: 'Pink cosmos flowers against a blue sky.',
+    post_text: 'Released January 21, 1982',
   },
   {
-    title: 'Sand + Sea = Summer',
+    title: 'Big Wave - Tatsuro Yamashita',
     user_id: 3,
-    post_text: 'Sandy beach with the blue sea and sky in the background.',
+    post_text: 'Released June 20, 1984',
   },
   {
-    title: 'Beach Chairs',
+    title: 'Timely!! - Anri',
     user_id: 4,
-    post_text: 'Two beach chairs under a beach umbrella on the beach.',
+    post_text: 'Released December 5, 1983',
   },
   {
-    title: 'Beach Sunrise',
+    title: 'Seychelles - Masayoshi Takanaka',
     user_id: 5,
-    post_text: 'Sun setting in the horizon with waves lapping the shore.',
+    post_text: 'Released July 1, 1976',
   },
   {
-    title: 'Fall Colors',
+    title: 'Brasilian Skies - Masayoshi Takanaka',
     user_id: 6,
-    post_text:'Trees with red, orange, yellow leaves reflected on a still lake.',
+    post_text:'July 21, 1978',
   },
   {
-    title: 'Autumn Mountains',
+    title: 'Sunshower - Taeko Ohnuki',
     user_id: 6,
-    post_text:'Mountains with red and yellow leaves against a background of hazy rolling hills.',
+    post_text:'Released May 13, 1977',
   },
   {
-    title: 'Frozen River',
+    title: 'Mignonne - Taeko Ohnuki',
     user_id: 4,
-    post_text:'Trees with white frozen branches reflected on a frozen river against a light pink sky.',
+    post_text:'Released Semptember 21, 1978',
   },
   {
-    title: 'Winter Home',
+    title: 'midnight cruisin - Kingo Hamada',
     user_id: 5,
-    post_text:'Log cabin blanketed in heavy white snow with tall snow covered pine trees in the background.',
+    post_text:'Released July 7, 1982',
   },
 ];
 

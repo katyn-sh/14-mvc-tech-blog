@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="row">
+        <a href="/dashboard">&larr; Return to Dashboard</a>
+        
+        <h2>Edit Post</h2>
+        <form class="edit-post-form">
+            <div>
+                <input type="text" class="form-control"  name="post-title" value="{{post.title}}" />
+                <br><br>
+                <textarea id="post-text" class="form-control"  name="post-text">{{post.post_text}}</textarea>
+            </div>
+            <div>
+                <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment"
+                    post.comments.length}}</a>
+            </div>
+            <button type="submit" class="btn btn-warning">Save Post</button>
+            <button type="button" class="btn btn-warning delete-post-btn">Delete post</button>
+        </form>
+
+        <form class="comment-form mt-5 mb-5">
+            <h5>add your comments</h5>
+            <div>
+                <textarea  class="form-control"name="comment-body"></textarea>
+            </div>
+            <div>
+                <button class="btn btn-warning mt-1" type="submit">Add Comment</button>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+{{> comments post.comments}}
+
+<script src="/js/edit-post.js"></script>
+<script src="/js/delete-post.js"></script>
+<script src="/js/comment.js"></script>
